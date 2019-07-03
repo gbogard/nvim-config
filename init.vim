@@ -8,6 +8,8 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'mhinz/vim-signify'
 Plug 'justinmk/vim-sneak'
 Plug 'scrooloose/nerdtree'
+Plug 'townk/vim-autoclose'
+Plug 'tpope/vim-surround'
 call plug#end()
 
 " color scheme
