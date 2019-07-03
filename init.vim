@@ -10,7 +10,10 @@ Plug 'justinmk/vim-sneak'
 Plug 'scrooloose/nerdtree'
 Plug 'townk/vim-autoclose'
 Plug 'tpope/vim-surround'
+Plug 'kien/ctrlp.vim'
 call plug#end()
+
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*/target/*
 
 " color scheme
 set background=dark
@@ -36,3 +39,4 @@ nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)<Paste>
 map <C-n> :NERDTreeToggle<CR>
+map <C-p> :CtrlP
