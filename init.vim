@@ -1,6 +1,7 @@
 " Configuration for vim-plug
 call plug#begin()
 Plug 'editorconfig/editorconfig-vim'
+Plug 'reasonml-editor/vim-reason-plus'
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
 Plug 'leafgarland/typescript-vim'
@@ -25,7 +26,7 @@ call plug#end()
 
 let g:coc_global_extensions = ['ts-server','html','json','css']
 
-set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*/target/*
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*/target/*,*/node_modules/*
 
 " color scheme
 set background=dark
